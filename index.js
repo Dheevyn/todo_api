@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
-const router = require("./routes/todoRoutes");
+const router = require("./routes/todoRoutes.js");
 
 const live_url =
   "mongodb+srv://dev_dheevyn:dev_dhee1960@cluster0.vpbffs0.mongodb.net/UserDB?appName=Cluster0";
